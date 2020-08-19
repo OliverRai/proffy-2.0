@@ -22,8 +22,15 @@
         flex-direction: column;
     }
 
+    .login-container .logo{
+        
+        
+    }
+
     .logo-container h2{
         color: #D4C2FF;
+        max-width: 300px;
+        margin-left: -13.8rem;
     }
 
     .login-container{
@@ -51,10 +58,10 @@
         margin-bottom: 1.2rem;
     }
     .login-container .input-block input{
-        border-radius: 0.8rem;
+        border-radius: 0.9rem;
         padding: 1.2rem;
         width: 352px;
-        height: 5.8rem;
+        height: 5.2rem;
         border: 1px solid #E6E6F0;
         box-sizing: border-box;
     }
@@ -63,18 +70,37 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        padding: 1.2rem auto;
     }
 
-    .login-container .lembrarsenha{
-        margin-right: -3.6rem;
+    .login-container .lembrar span{
+        cursor: pointer;
+    }
+
+    .login-container .eyes-show{
+    
     }
 
     .login-container .btnLogin{
-        background-color: #DCDCE6;
+        background-color: var(--color-secundary);
         border-radius: 0.8rem;
+        color: #FFF;
         border-style: none;
         height: 3.6rem;
         width: 100%;
         margin: 1.8rem auto;
+        cursor: pointer;
+    }
+    .login-container #footer{
+        margin-top: 2.5rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .login-container .sign{
+        color: var(--color-primary);
+        font-family: Poppins;
+        cursor: pointer;
+        
     }
 }

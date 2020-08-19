@@ -1,3 +1,107 @@
+.logo-container {
+    background-image: url('../../assets/images/login-background.svg');
+    margin: 0;
+    height: 50vh;
+    background-color: var(--color-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+}
+
+.logo-container .logo{
+    width: 350px;
+}
+
+.logo-container h2 {
+    color: #D4C2FF;
+    max-width: 300px;
+    margin-left: -4.8rem;
+}
+
+.login-container {
+    width: 100vw;
+    grid-area: login;
+    background: #E5E5E5;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container h2 {
+    font-size: 3.5rem;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    color: var(--color-text-title);
+    line-height: 2.8;
+}
+
+.login-container .input-block {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2.4rem;
+}
+
+.login-container .input-block input {
+    border-radius: 0.9rem;
+    padding: 1.2rem;
+    width: 352px;
+    height: 5.2rem;
+    border: 1px solid #E6E6F0;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+
+.login-container .lembrar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.2rem auto;
+   
+}
+
+.login-container .lembrar span {
+    cursor: pointer;
+}
+
+.login-container .eyes {
+    cursor: pointer;
+    margin-top: -3.5rem;
+    margin-left: 32rem;
+}
+
+.login-container .btnLogin {
+
+    background-color: var(--color-secundary);
+    border-radius: 0.8rem;
+    color: #FFF;
+    border-style: none;
+    height: 3.6rem;
+    width: 100%;
+    margin: 1.8rem auto;
+    cursor: pointer;
+}
+
+.login-container #footer {
+    margin-top: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.login-container .sign {
+    color: var(--color-primary);
+    font-family: Poppins;
+    cursor: pointer;
+
+}
+
 @media (min-width: 1100px) {
     #page-landing-content {
         max-width: 1100px;
@@ -6,7 +110,7 @@
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
             "logo login";
-        
+
     }
 
     .logo-container {
@@ -22,18 +126,13 @@
         flex-direction: column;
     }
 
-    .login-container .logo{
-        
-        
-    }
-
-    .logo-container h2{
+    .logo-container h2 {
         color: #D4C2FF;
         max-width: 300px;
-        margin-left: -13.8rem;
+        margin-left: -4.8rem;
     }
 
-    .login-container{
+    .login-container {
         width: 50vw;
         grid-area: login;
         background: #E5E5E5;
@@ -43,7 +142,9 @@
         justify-content: center;
         align-items: center;
     }
-    .login-container h2{
+
+    .login-container h2 {
+        
         font-size: 3.5rem;
         font-family: Poppins;
         font-style: normal;
@@ -52,36 +153,42 @@
         color: var(--color-text-title);
         line-height: 2.8;
     }
-    .login-container .input-block{
+
+    .login-container .input-block {
         display: flex;
         flex-direction: column;
-        margin-bottom: 1.2rem;
+        margin-bottom: 2.4rem;
     }
-    .login-container .input-block input{
+
+    .login-container .input-block input {
         border-radius: 0.9rem;
         padding: 1.2rem;
         width: 352px;
         height: 5.2rem;
         border: 1px solid #E6E6F0;
         box-sizing: border-box;
+        outline: none;
     }
 
-    .login-container .lembrar{
+    .login-container .lembrar {
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 1.2rem auto;
     }
 
-    .login-container .lembrar span{
+    .login-container .lembrar span {
         cursor: pointer;
     }
 
-    .login-container .eyes-show{
-    
+    .login-container .eyes {
+        cursor: pointer;
+        margin-top: -3.5rem;
+        margin-left: 32rem;
     }
 
-    .login-container .btnLogin{
+    .login-container .btnLogin {
+
         background-color: var(--color-secundary);
         border-radius: 0.8rem;
         color: #FFF;
@@ -91,16 +198,18 @@
         margin: 1.8rem auto;
         cursor: pointer;
     }
-    .login-container #footer{
+
+    .login-container #footer {
         margin-top: 2.5rem;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
-    .login-container .sign{
+
+    .login-container .sign {
         color: var(--color-primary);
         font-family: Poppins;
         cursor: pointer;
-        
+
     }
 }

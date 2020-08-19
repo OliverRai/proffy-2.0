@@ -24,9 +24,7 @@ function Landing() {
                         <div className="input-block">
                             <input type="text" name="email" id="email" placeholder="email" />
                             <input type="password" name="password" id="password" placeholder="password" />
-                            <button className="eyes-show">
-                                <FiEye />
-                            </button>
+                           <i className="eyes"><FiEye/></i>
                         </div>
                         <div className="lembrar">
                             <div className="input-group mb-3">

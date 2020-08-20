@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import { FiEye } from "react-icons/fi";
 
 import './styles.css'
@@ -22,8 +23,8 @@ function Landing() {
                     <form>
                         <h2>Fazer Login</h2>
                         <div className="input-block">
-                            <input type="text" name="email" id="email" placeholder="email" />
-                            <input type="password" name="password" id="password" placeholder="password" />
+                            <input type="text" name="text" id="text" placeholder="Email" />
+                            <input type="password" name="password" id="password" placeholder="Password" />
                            <i className="eyes"><FiEye/></i>
                         </div>
                         <div className="lembrar">
@@ -42,7 +43,11 @@ function Landing() {
                             <p>Não tem conta?</p>
                             <span>É de graça <img src={purpleHeartIcon} alt="Coração roxo" /></span>
                         </div>
-                        <span className="sign">Cadastre-se</span>
+                        <div className="sign">
+                            <p>
+                                <Link className="cadUser" to="/singIn"> Cadastre-se </Link>
+                            </p>
+                        </div>
                     </form>
 
                 </div>

@@ -95,12 +95,7 @@
     justify-content: space-between;
 }
 
-.login-container .sign {
-    color: var(--color-primary);
-    font-family: Poppins;
-    cursor: pointer;
 
-}
 
 @media (min-width: 1100px) {
     #page-landing-content {
@@ -206,10 +201,10 @@
         justify-content: space-between;
     }
 
-    .login-container .sign {
+    .login-container .sign .cadUser{
+        text-decoration: none;
         color: var(--color-primary);
-        font-family: Poppins;
-        cursor: pointer;
-
+        font: Poppins;
+        font-weight: 600;
     }
 }

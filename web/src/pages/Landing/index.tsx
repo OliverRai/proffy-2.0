@@ -3,10 +3,7 @@ import { Link } from 'react-router-dom'
 import { FiEye } from "react-icons/fi";
 
 import './styles.css'
-import '../../assets/styles/global.css'
 import logoImg from '../../assets/images/logo.svg';
-
-
 import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
 
 

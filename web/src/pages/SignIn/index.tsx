@@ -1,8 +1,45 @@
 import React from 'react';
 
-function SignIn(){
-    return(
-        <h1>oi</h1>
+import { Link } from 'react-router-dom'
+import { FiEye } from "react-icons/fi";
+
+import backIcon from '../../assets/images/icons/back.svg';
+import logoImg from '../../assets/images/logo.svg';
+import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
+
+import './styles.css';
+
+function SignIn() {
+    return (
+        <div id="sign-in">
+            <div id="page-signIn-content" className="container">
+                <header className="goBack">
+                    <img src={backIcon} alt="Voltar" />
+                </header>
+                <div className="cadUser-container">
+                    <form>
+                        <div className="title">
+                            <h1>Cadastro</h1>
+                            <p>Preencha os dados abaixo para começar</p>
+                        </div>
+                        <div className="input-block">
+                            <input type="text" name="name" id="name" placeholder="Nome" />
+                            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome" />
+                            <input type="text" name="email" id="email" placeholder="Email" />
+                            <input type="password" name="senha" id="senha" placeholder="Senha" />
+                            <i className="eyes"><FiEye /></i>
+                        </div>
+                        <div className="btn">
+                            <button className="btn-cadastrar">Concluir cadastro</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div id="container-logo" className="container">
+                <img className="logo" src={logoImg} alt="Proffy" />
+                <h2>Sua plataforma de estudos online.</h2>
+            </div>
+        </div>
     )
 }
 

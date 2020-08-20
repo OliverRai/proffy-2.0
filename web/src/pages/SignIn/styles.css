@@ -1,6 +1,10 @@
 #sign-in{
     width: 100vw;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
 
 #page-signIn-content {
@@ -10,12 +14,12 @@
 }
 
 .goBack {
-    margin: 2rem;
+    margin-left: 10rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .cadUser-container {
-    display: flex;
-    flex-direction: column;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,6 +85,7 @@
 }
 
 #container-logo .logo{
+    margin-top: 10rem;
     width: 350px;
 }
 
@@ -88,4 +93,5 @@
     color: #D4C2FF;
     max-width: 300px;
     margin-left: -4.8rem;
+    margin-bottom: 5rem;
 }

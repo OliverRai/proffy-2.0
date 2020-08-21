@@ -1,7 +1,7 @@
 .logo-container {
     background-image: url('../../assets/images/login-background.svg');
     margin: 0;
-    height: 50vh;
+    height: 100vh;
     background-color: var(--color-primary);
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@
 .login-container {
     width: 100vw;
     background: #E5E5E5;
-    height: 70vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -5,7 +5,7 @@ import { FiEye } from "react-icons/fi";
 
 import backIcon from '../../assets/images/icons/back.svg';
 import logoImg from '../../assets/images/logo.svg';
-import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
+
 
 import './styles.css';
 
@@ -31,9 +31,7 @@ function SignIn() {
                             <input type="password" name="senha" id="senha" placeholder="Senha" />
                             <i className="eyes"><FiEye /></i>
                         </div>
-                        <div className="btn">
                             <button className="btn-cadastrar">Concluir cadastro</button>
-                        </div>
                     </form>
                 </div>
                 <div className="container-logo">

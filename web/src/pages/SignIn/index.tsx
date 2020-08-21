@@ -20,7 +20,7 @@ function SignIn() {
                     <form>
                         <div className="title">
                             <h1>Cadastro</h1>
-                            <p>Preencha os dados abaixo para começar</p>
+                            <h2>Preencha os dados abaixo para começar</h2>
                         </div>
                         <div className="input-block">
                             <input type="text" name="name" id="name" placeholder="Nome" />
@@ -34,10 +34,10 @@ function SignIn() {
                         </div>
                     </form>
                 </div>
-            </div>
-            <div id="container-logo" className="container">
-                <img className="logo" src={logoImg} alt="Proffy" />
-                <h2>Sua plataforma de estudos online.</h2>
+                <div id="container-logo" className="container">
+                    <img className="logo" src={logoImg} alt="Proffy" />
+                    <h2>Sua plataforma de estudos online.</h2>
+                </div>
             </div>
         </div>
     )

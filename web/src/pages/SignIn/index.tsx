@@ -11,11 +11,13 @@ import './styles.css';
 
 function SignIn() {
     return (
-        <div id="sign-in">
-            <div id="page-signIn-content" className="container">
-                <header className="goBack">
-                    <img src={backIcon} alt="Voltar" />
+        <div id="page-sign-in">
+            <header className="goBack">
+                    <Link to="/">
+                        <img src={backIcon} alt="Voltar"/>
+                    </Link>
                 </header>
+            <div id="page-signIn-content" className="container">
                 <div className="cadUser-container">
                     <form>
                         <div className="title">
@@ -34,7 +36,7 @@ function SignIn() {
                         </div>
                     </form>
                 </div>
-                <div id="container-logo" className="container">
+                <div className="container-logo">
                     <img className="logo" src={logoImg} alt="Proffy" />
                     <h2>Sua plataforma de estudos online.</h2>
                 </div>

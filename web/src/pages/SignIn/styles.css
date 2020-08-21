@@ -1,99 +1,15 @@
+#page-sign-in{
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 @media (min-width: 1100px) {
     #page-signIn-content {
         max-width: 1100px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-areas:
-            "cadUser logo";
-    }
-
-    .goBack {
-        display: flex;
-        margin-top: -120rem;
-        margin-left: 10rem;
-        position: relative;
-    }
-
-    .cadUser-container {
-        grid-area: cadUser;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        width: 50vw;
-        height: 100vh;
-
-    }
-
-
-    .cadUser-container h2 {
-        font-family: Poppins;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1.6rem;
-        line-height: 2.6rem;
-        color: #6A6180;
-        max-width: 250px;
-        margin-bottom: 2.6rem;
-    }
-
-    .cadUser-container .input-block {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 2.4rem;
-    }
-
-    .cadUser-container .input-block input {
-        border-radius: 0.9rem;
-        padding: 1.2rem;
-        width: 100%;
-        height: 5.2rem;
-        border: 1px solid #E6E6F0;
-        box-sizing: border-box;
-        outline: none;
-        margin-bottom: 0.1rem;
-    }
-
-    .cadUser-container .eyes {
-        cursor: pointer;
-        margin-top: -3.5rem;
-        margin-left: 32rem;
-    }
-
-    .cadUser-container .btn-cadastrar {
-        background: var(--color-secondary);
-        border-radius: 0.8rem;
-        border-style: none;
-        height: 3.8rem;
-        color: #E6E6F0;
-        width: 100%;
-        cursor: pointer;
-        font-family: Archivo;
-        font-weight: 600;
-        font-size: 1.6rem;
-        line-height: 2.6rem;
-        
-    }
-
-    #container-logo {
-        background-image: url('../../assets/images/login-background.svg');
-        grid-area: logo;
-        width: 50vw;
-        height: 100vh;
-        background-color: var(--color-primary);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    #container-logo .logo{
-        width: 350px;
+        display: flex;  
     }
     
-    #container-logo h2 {
-        color: #D4C2FF;
-        max-width: 300px;
-        margin-left: -4.8rem;
-    }
 }

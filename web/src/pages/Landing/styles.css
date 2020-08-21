@@ -12,7 +12,7 @@
 
 .logo-container .logo{
     width: 350px;
-}
+}   
 
 .logo-container h2 {
     color: #D4C2FF;
@@ -22,7 +22,6 @@
 
 .login-container {
     width: 100vw;
-    grid-area: login;
     background: #E5E5E5;
     height: 70vh;
     display: flex;

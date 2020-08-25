@@ -1,5 +1,5 @@
-import React from 'react';
-import { Link } from 'react-router-dom'
+import React, { useState, FormEvent } from 'react';
+import { Link, useHistory } from 'react-router-dom'
 import { FiEye } from "react-icons/fi";
 
 import './styles.css'
@@ -7,7 +7,10 @@ import logoImg from '../../assets/images/logo.svg';
 import purpleHeartIcon from '../../assets/images/icons/purple-heart.svg';
 
 
+
 function Landing() {
+
+
     return (
         <div id="page-landing">
             <div id="page-landing-content" className="container">
@@ -21,7 +24,7 @@ function Landing() {
                         <div className="input-block">
                             <input type="text" name="text" id="text" placeholder="Email" />
                             <input type="password" name="password" id="password" placeholder="Password" />
-                           <i className="eyes"><FiEye/></i>
+                            <i className="eyes"><FiEye /></i>
                         </div>
                         <div className="lembrar">
                             <div className="input-group mb-3">
@@ -32,7 +35,9 @@ function Landing() {
                                     </div>
                                 </div>
                             </div>
-                            <span>Esqueci minha senha</span>
+                            <span>
+                                <Link to="/password" className="remember">Esqueci minha senha</Link>
+                            </span>
                         </div>
                         <button className="btnLogin">Entrar</button>
                         <div id="footer">

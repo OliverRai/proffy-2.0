@@ -217,4 +217,9 @@
         font: Poppins;
         font-weight: 600;
     }
+
+    .remember{
+        text-decoration: none;
+        color: #9C98A6;
+    }
 }

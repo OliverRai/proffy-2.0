@@ -10,7 +10,7 @@ function Routes(){
         <BrowserRouter>
             <Route path="/" exact component={Landing} />
             <Route path="/singIn" component={SignIn} />
-            <Route path="/sucess" component={Sucess}/>
+            <Route path="/success" component={Sucess}/>
             <Route path="/password" component={Password}/>
         </BrowserRouter>
     )

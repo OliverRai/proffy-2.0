@@ -7,7 +7,7 @@ import './styles.css'
 import backIcon from '../../assets/images/icons/back.svg';
 import logoImg from '../../assets/images/logo.svg';
 import api from '../../services/api';
-import { sign } from 'crypto';
+
 
 
 function SignIn() {

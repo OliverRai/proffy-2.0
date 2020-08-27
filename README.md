@@ -1,4 +1,4 @@
-# proffy 2.0 em desenvolvimento!
+# Projeto Proffy 2.0 em desenvolvimento!
 
 ![logo](https://user-images.githubusercontent.com/45560284/91365542-c2c69300-e7d7-11ea-84c8-784fc5aa78b9.png)
 <img src=”https://user-images.githubusercontent.com/45560284/91365542-c2c69300-e7d7-11ea-84c8-784fc5aa78b9.png”>
@@ -22,7 +22,7 @@
   <img src="https://user-images.githubusercontent.com/45560284/91369608-995f3480-e7e2-11ea-84f7-e712efaee655.png" width=400px height=200px>
   <img src="https://user-images.githubusercontent.com/45560284/91369604-96fcda80-e7e2-11ea-8c46-b470acb13d2f.png" width=400px height=200px> 
   <img src="https://user-images.githubusercontent.com/45560284/91369613-9bc18e80-e7e2-11ea-8094-f3c0edc3117e.png" width=400px height=200px>
-  
+  <img src="https://user-images.githubusercontent.com/45560284/91369845-2dc99700-e7e3-11ea-8f2b-066cb9cf0e84.png" width=400px height=200px>
 
 <h2>Caso você queira executar esse projeto no seu computador </h2>
 <ul>

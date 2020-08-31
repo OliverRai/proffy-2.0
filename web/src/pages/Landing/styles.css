@@ -220,6 +220,6 @@
 
     .remember{
         text-decoration: none;
-        color: #9C98A6;
+        color: var(--color-text-base);
     }
 }

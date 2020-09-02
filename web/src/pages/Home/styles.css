@@ -3,16 +3,52 @@
         max-width: 1100px;  
         
     }
-    .logo {
+
+    header{
+        position: absolute;
+        display: flex;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .userimg{
+        border-radius: 50%;
+        width: 3.6rem;
+        margin-right: 0.8rem;
+        margin-left: 20rem;
+    }
+
+    .sair{
+        margin-left: 70rem;
+    }
+
+    .user-info{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #ffffff;
+    }
+    .logo-home {
         background: var(--color-primary);
         width: 100vw;
-        height: 75vh;
+        height: 70vh;
         display: grid;
 
         grid-template-columns: 1fr 1fr;
         grid-template-areas:
-            "logo login";
+            "logo landing";
     }
+
+    .logo-home h2{
+        color: #D4C2FF;
+        max-width: 300px;
+        height: 7.3rem;
+        margin-left: -8rem;
+    }
+
+    .logo-img{
+        width: 380px;
+    }
+
     .proffy-logo{
         grid-area: logo;
         display: flex;
@@ -21,10 +57,82 @@
         justify-content: center;
     }
     .bg-home {
-        grid-area: login;
+        grid-area: landing;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
+
+    .bg-home img{
+        width: 550px;
+    }
+
+    .footer-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #E5E5E5;
+        width: 100vw;
+        height: 30vh;
+    }
+
+    .welcome{
+        display: flex;
+        flex-direction: column;
+        margin-right: 20rem;
+    }
+
+    .connections{
+        display: flex;
+        margin-right: 5rem;
+        max-width: 200px;
+        text-align: end;
+    }
+
+    .buttons {
+        display: flex;
+        justify-content: center;
+        margin: 3.2rem 0;
+    }
+    
+    .buttons a {
+        width: 20rem;
+        height: 8.4rem;
+        border-radius: 0.8rem;
+    
+        font: 700 2.0rem Archivo;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-decoration: none;
+        color: var(--color-button-text);
+    
+        transition: background-color 0.2rem;
+    }
+
+    .buttons a:first-child {
+        margin-right: 1.6rem;
+    }
+    
+    .buttons a img {
+        width: 4rem;
+    }
+    
+    .buttons a.study {
+        background: var(--color-primary-lighter);
+    }
+    
+    .buttons a.give-classes {
+        background: var(--color-secondary);
+    }
+    
+    .buttons a.study:hover {
+        background: var(--color-primary-light);
+    }
+    
+    .buttons a.give-classes:hover {
+        background: var(--color-secondary-dark);
+    }
+    
 }
